@@ -1,5 +1,31 @@
-# socialNetworkAPI
-an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+# Social Network API 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/RedactdName/socialNetworkAPI.git)
+
+## Description 
+
+This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It uses `Express.js` for routing, a `MongoDB` database, the `Mongoose` ODM, and `Moment.js` to format timestamps. The seed data is created using `Insomnia`.
+
+
+
+## Table of Contents 
+
+- [Demonstration](#application-preview)
+- [User Story](#user-story)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Tests](#tests)
+- [Contribution](#contribution)
+- [Questions](#questions)
+- [Credits](#credits)
+
+## Demonstration ⭐
+
+
+
+## User Story 
 
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
