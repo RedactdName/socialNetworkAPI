@@ -7,14 +7,11 @@
 This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It uses `Express.js` for routing, a `MongoDB` database, the `Mongoose` ODM, and `Moment.js` to format timestamps. The seed data is created using `Insomnia`.
 
 
-
 ## Table of Contents 
 
 - [Demonstration](#demonstration)
 - [User Story](#user-story)
-- [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Technologies](#technologies)
 - [Tests](#tests)
 - [Contribution](#contribution)
@@ -22,7 +19,8 @@ This is an API for a social network web application where users can share their 
 - [Credits](#credits)
 
 ## Demonstration 
-
+[Demonstration to run and Insomnia](https://drive.google.com/file/d/1cLkZr2X6gd7C9O344uJdvhzR84eZQM5K/view)
+[Demo of Thoughts Insomnia](https://drive.google.com/file/d/1kmt5fgAMCRpIn8PrLptVetYce-Fq-ofo/view)
 
 
 ## User Story 
@@ -43,11 +41,16 @@ WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 
-## Features
-
 ## Installation
+After opening in VSCode
 
-## Usage 
+Open in integrated terminal
+
+npm i to install packages
+
+npm run watch to connect to server
+
+Switch over to Insomnia to test
 
 ## Technologies
 
@@ -59,8 +62,11 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Tests
 
+Test using Insomnia or Postman
+
 ## Contribution
 
-## Questions
+Developed with help from tutors Sandra Smith and Corey Yates and Zack assisting. If you would like to add further conritbution, fork/clone the repo and update.
 
 ## Credits
+created 2023 by NameRedactd
