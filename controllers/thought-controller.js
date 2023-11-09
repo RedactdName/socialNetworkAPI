@@ -71,7 +71,7 @@ module.exports = {
   },
   async addReaction(req, res) {
     try {
-      const updatedThought = await Thought.findOneAndUpdate({_id:req.params.thoughtId},{$addToSet:{friends:req.params.reactionId}},{new: true})
+      const updatedThought = await Thought.findOneAndUpdate({_id:req.params.thoughtId},{$addToSet:{reactions: req.body}},{new: true})
       if (!updatedThought) {
         return res.status(404).json({ message: 'No thought with this id!' });
       }
@@ -82,7 +82,7 @@ module.exports = {
   },
   async removeReaction(req, res) {
     try {
-      const updatedThought = await Thought.findOneAndUpdate({_id:req.params.thoughtId},{$pull:{friends:req.params.reactionId}},{new: true})
+      const updatedThought = await Thought.findOneAndDelete({_id:req.params.reactionId},{$pull:{reactions:{reactionId:req.params.reactionId}}},{new: true})
       if (!updatedThought) {
         return res.status(404).json({ message: 'No thought with this id!' });
       }
