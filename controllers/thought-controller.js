@@ -69,4 +69,26 @@ module.exports = {
       res.status(500).json(err);
     }
   },
+  async addReaction(req, res) {
+    try {
+      const updatedThought = await Thought.findOneAndUpdate({_id:req.params.thoughtId},{$addToSet:{friends:req.params.reactionId}},{new: true})
+      if (!updatedThought) {
+        return res.status(404).json({ message: 'No thought with this id!' });
+      }
+      res.json(updatedThought)
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  },
+  async removeReaction(req, res) {
+    try {
+      const updatedThought = await Thought.findOneAndUpdate({_id:req.params.thoughtId},{$pull:{friends:req.params.reactionId}},{new: true})
+      if (!updatedThought) {
+        return res.status(404).json({ message: 'No thought with this id!' });
+      }
+      res.json(updatedThought)
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  }
 };
