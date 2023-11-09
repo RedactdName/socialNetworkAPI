@@ -19,8 +19,9 @@ This is an API for a social network web application where users can share their 
 - [Credits](#credits)
 
 ## Demonstration 
-[Demonstration to run and Insomnia](https://drive.google.com/file/d/1cLkZr2X6gd7C9O344uJdvhzR84eZQM5K/view)
-[Demo of Thoughts Insomnia](https://drive.google.com/file/d/1kmt5fgAMCRpIn8PrLptVetYce-Fq-ofo/view)
+[Demonstration to open and run in Insomnia](https://drive.google.com/file/d/1cLkZr2X6gd7C9O344uJdvhzR84eZQM5K/view)
+
+[Alternate demo of Thoughts in Insomnia](https://drive.google.com/file/d/1kmt5fgAMCRpIn8PrLptVetYce-Fq-ofo/view)
 
 
 ## User Story 
