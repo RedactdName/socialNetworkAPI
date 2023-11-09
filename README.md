@@ -10,7 +10,7 @@ This is an API for a social network web application where users can share their 
 
 ## Table of Contents 
 
-- [Demonstration](#application-preview)
+- [Demonstration](#demonstration)
 - [User Story](#user-story)
 - [Features](#features)
 - [Installation](#installation)
@@ -21,7 +21,7 @@ This is an API for a social network web application where users can share their 
 - [Questions](#questions)
 - [Credits](#credits)
 
-## Demonstration ⭐
+## Demonstration 
 
 
 
@@ -41,3 +41,26 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete users and thoughts in my database
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+
+
+## Features
+
+## Installation
+
+## Usage 
+
+## Technologies
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Express.js](https://expressjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+
+## Tests
+
+## Contribution
+
+## Questions
+
+## Credits
